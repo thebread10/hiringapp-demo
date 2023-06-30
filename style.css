@@ -17,7 +17,6 @@
 
     .sub-header {
         margin-top: 5%;
-        float: left;
         font-size: 30px;
         color: #fff;
     }
@@ -31,6 +30,7 @@
     }
 
     .panel-right {
+        margin-left: 20%;
         margin-top: 10%;
     }
 
