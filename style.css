@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300&display=swap');
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 600px) {
     body {
         font-family: 'Urbanist', 'sans serif';
         font-style: bold;
