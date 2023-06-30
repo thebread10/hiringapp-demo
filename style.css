@@ -31,7 +31,8 @@
     }
 
     .panel-right {
-        margin-right: -70%;
+        margin-left: 0;
+        margin-right: -100%;
         margin-top: 10%;
     }
 
@@ -41,7 +42,7 @@
     }
 
     p {
-        width: 600px;
+        width: 300px;
         margin-right: 0%;
         color: #fff;
     }
