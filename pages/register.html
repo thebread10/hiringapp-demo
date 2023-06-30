@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" type="text/css" href="./style.css" />
+        <title>
+            A hiring website
+        </title>
+    </head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300&display=swap');
+
+        @media only screen and (max-width: 600px) {
+            body {
+                font-family: 'Urbanist', 'sans serif';
+                font-style: bold;
+                font-weight: 800;
+                letter-spacing: 2px;
+                background: #222;
+            }
+
+            .panel {
+                display: none;
+            }
+
+        }
+
+        body {
+            font-family: 'Urbanist', 'sans serif';
+            font-style: bold;
+            font-weight: 800;
+            letter-spacing: 2px;
+            background: #222;
+        }
+        
+        .login {
+            margin-top: 10%;
+            font-size: 15px;
+            display: inline-block;
+            padding: 12px 30px;
+            color: #fff;
+            background-color: transparent;
+            border-radius: 3px;
+            border: 0.5px solid #fff;
+        }
+
+        .login:hover {
+            font-size: 15px;
+            display: inline-block;
+            padding: 12px 30px;
+            color: #222;
+            background-color: #fff;
+            border-radius: 3px;
+            border: 0.5px solid #222;
+        }
+
+        input::placeholder {
+            color: #999;
+        }
+
+        input {
+            margin-top: 1.5%;
+            font-size: 15px;
+            padding: 12px 60px;
+            color: #fff;
+            background-color: transparent;
+            border-radius: 3px;
+            border: 0.5px solid #fff;
+        }
+        
+       .form-box {
+            margin-left: 10%;
+            margin-top: 7.5%;
+       }
+
+        form {
+            margin-top: 5%;
+            margin-left: 5%;
+            border: 2px solid #555;
+            width: 400px;
+            height: 575px;
+            box-shadow: 10px 7.5px #fff;
+        }
+
+        .dot {
+            color: #fff;
+            font-size: 40px;
+        }
+
+        .heading {
+            color: #fff;
+            font-size: 20px;
+            letter-spacing: 5px;
+        }
+
+        .sub-heading {
+            margin-top: 7.5%;
+            color: #fff;
+            font-size: 12px;
+        }
+
+        a:link, a:hover, a:active {
+            color: #fff;
+        }
+
+        .title {
+            margin-top: 7.5%;
+            color: #fff;
+            font-size: 15px;
+        }
+
+        .panel {
+            margin-right: 3%;
+            margin-top: 3%;
+            float: right;
+        }
+
+    </style>
+    <body>
+        <div class="panel">
+            <img src="../images/register.png" alt="login_image" width="800" height="500" />
+        </div>
+        <form>
+            <div class="form-box">
+                <span class="heading">Register<span class="dot">.</span></span>
+                <br />
+
+                <div class="title">
+                    Email
+                    <br />
+                    <input name="email" type="text" required />
+                </div>
+
+                <div class="title">
+                    Password
+                    <input name="email" type="text" required />
+                </div>
+
+                <div class="title">
+                    Confirm Password
+                    <input name="email" type="text" required />
+                </div>
+
+                <button class="login" type="button">Register</button>
+                <br />
+
+                <div class="sub-heading"><input type="checkbox" />  You agree to our terms and conditions.</div>
+
+                <div class="sub-heading">Already registered? <a href="auth.html">Login here</a></div>
+            </div>
+        </form>
+    </body>
+</html>
