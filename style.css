@@ -30,6 +30,7 @@
     }
 
     .panel-right {
+        margin-left: 10%;
         width: 400px;
         float: right;
     }
