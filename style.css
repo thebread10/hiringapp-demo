@@ -9,6 +9,11 @@
         background: #222;
     }
 
+    img {
+        width: 150px;
+        height: 100px;
+    }
+
     .sub-header {
         margin-top: 5%;
         float: left;
